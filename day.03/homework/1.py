@@ -1,73 +1,33 @@
-# #1
-# points = 50
-# points += 10
-# points *= 2
-# print(points)
+# 1. 
+# print("Nikoloz Dzeluri " * 100)
 
-#2
-# snake_case: words are lowercase and separated by underscores.
-# Examples: user_age, total_score, favorite_color
+# 2.
+#first_name = "ნიკოლოზ"
+# last_name = "ძელური"
+# full_name = first_name + " " + last_name  
+# print(full_name)
 
-#3
-# # 1. სიტყვა ბოლომდე არ არის დაწერილი, არ დაგვიმთავრებია ბრჭყალებით
-# greeting = "გამარჯობა
+# 3
+# city = "London"  
+# print(city) 
 
-# # 2. ასაკს სიტყვასთან ვაერთიანებთ ისე, რომ არ ვცვლით ტექსტად, ეს არ გამოდის
-# age = 15
-# message = "ჩემი ასაკია " + age
 
-# # 3. რიცხვი ვცადეთ გავყოთ 0-ზე, რაც არ გამოვა
-# division_result = 10 / 0
 
-# # 4. ვბეჭდავთ სახელის ცვლადს, რომელიც საერთოდ არ გვაქვს დაწერილი
-# print("მომხმარებლის სახელი: " + username)
+# 4
+# my_age = 25
+# father_age = 50
+# mother_age = 48
 
-# # 5. ვცდილობთ შევადაროთ ასაკი 18-ს, მაგრამ "=" ნიშანი არასწორად გვიწერია
-# is_adult = age = 18
+# 5 
+# average_age = (my_age + father_age + mother_age) / 3
+# print("საშუალო ასაკი:", average_age)
 
-# # 6. რიცხვს ვზრდით, მაგრამ საერთოდ არ გვაქვს დაწერილი counter
-# counter += 1
+#6
+# num1 = 4
+# num2 = 5
 
-# # 7. სტრინგში არასწორად ვწერთ ასაკსა და სახელს
-# info = "სახელი: " + name + " ასაკი: " + age
+# square1 = num1 ** 2
+# square2 = num2 ** 2
 
-# # 8. ვცდილობთ ორი სიტყვა შევაერთოთ მინუსით, რაც არ გამოდის
-# fullname = "Nikoloz" - "Dzeluri"
-
-# # 9. ჩაგვრჩა უცნაური ნიშანი ტექსტში, ამიტომ არ იმუშავებს
-# sentence = "გამარჯობა! \u
-
-# # 10. ასაკს ვწერთ სიტყვით "თხუთმეტი" და '='-ის ნიშანი არასწორად გვაქვს
-# age == "თხუთმეტი"
-
-#4
-# პირველი ცვლადი, სადაც საყვარელი  შეინახება
-# number = 888
-
-# მეორე ცვლადი, სადაც ასაკი შეინახება
-# age = 10
-
-# მესამე ცვლადი, სადაც პირველი ორი ცვლადის ნამრავლი შეინახება
-# result = number * age
-
-# შედეგის ბეჭდვა
-# print(result) 
-
-# #5
-# a = 10
-# b = 5
-
-# ყველა ძირითადი მათემატიკური ოპერატორი
-# addition = a + b         # შეკრება
-
-# subtraction = a - b      # გამოკლება
-
-# multiplication = a * b   # გამრავლება
-
-# division = a / b        # გაყოფა
-
-# შედეგების დაბეჭდვა
-# print(addition)
-# print(subtraction)
-# print(multiplication)
-# print(division)
+# sum_of_squares = square1 + square2
+# print("კვადრატების ჯამი:", sum_of_squares)
