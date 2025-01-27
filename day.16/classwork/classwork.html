@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სარეგისტრაციო ფორმა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>სარეგისტრაციო ფორმა</h2>
+        <form action="#" method="POST">
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">მაილი:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="dropdown">მოძებნეთ ვარიანტი:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="option1">ვარიანტი 1</option>
+                <option value="option2">ვარიანტი 2</option>
+                <option value="option3">ვარიანტი 3</option>
+                <option value="option4">ვარიანტი 4</option>
+            </select>
+
+            <button type="submit">რეგისტრაცია</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -3,3 +3,9 @@ for number in range(1, 23456789):
         print("number is low")
     else:
         print("number is high")
+
+
+
+
+
+        
